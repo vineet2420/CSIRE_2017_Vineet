@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CCDA7AD1FBA710E00078622 /* MyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCDA7AC1FBA710E00078622 /* MyAccount.swift */; };
+		443E5EA81F17AD8E00A0E345 /* NSCLC_Subtypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E5EA71F17AD8E00A0E345 /* NSCLC_Subtypes.swift */; };
+		444B7B081F1511CC006F0626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444B7B071F1511CC006F0626 /* AppDelegate.swift */; };
+		444B7B0A1F1511CC006F0626 /* EGFR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444B7B091F1511CC006F0626 /* EGFR.swift */; };
+		444B7B0D1F1511CC006F0626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444B7B0B1F1511CC006F0626 /* Main.storyboard */; };
+		444B7B0F1F1511CC006F0626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444B7B0E1F1511CC006F0626 /* Assets.xcassets */; };
+		444B7B121F1511CC006F0626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444B7B101F1511CC006F0626 /* LaunchScreen.storyboard */; };
+		444B7B1D1F1511CD006F0626 /* Lung_CancerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444B7B1C1F1511CD006F0626 /* Lung_CancerTests.swift */; };
+		444B7B281F1511CD006F0626 /* Lung_CancerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444B7B271F1511CD006F0626 /* Lung_CancerUITests.swift */; };
+		444DDBFD1F278A1D009F85D1 /* SCLC_Surgery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DDBFA1F278A1D009F85D1 /* SCLC_Surgery.swift */; };
+		444DDBFE1F278A1D009F85D1 /* SCLC_RadTherapy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DDBFB1F278A1D009F85D1 /* SCLC_RadTherapy.swift */; };
+		444DDBFF1F278A1D009F85D1 /* SCLC_Chemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DDBFC1F278A1D009F85D1 /* SCLC_Chemo.swift */; };
+		444DDC021F279C91009F85D1 /* Genes_Ui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DDC011F279C91009F85D1 /* Genes_Ui.swift */; };
+		444DDC131F27B562009F85D1 /* RICTOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DDC051F27B562009F85D1 /* RICTOR.swift */; };
+		444DDC141F27B562009F85D1 /* MAP2K1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DDC061F27B562009F85D1 /* MAP2K1.swift */; };
+		444DDC151F27B562009F85D1 /* RET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DDC071F27B562009F85D1 /* RET.swift */; };
+		444DDC161F27B562009F85D1 /* PTEN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DDC081F27B562009F85D1 /* PTEN.swift */; };
+		444DDC171F27B562009F85D1 /* ROS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DDC091F27B562009F85D1 /* ROS1.swift */; };
+		444DDC181F27B562009F85D1 /* AKT1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DDC0A1F27B562009F85D1 /* AKT1.swift */; };
+		444DDC191F27B562009F85D1 /* PIK3CA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DDC0B1F27B562009F85D1 /* PIK3CA.swift */; };
+		444DDC1A1F27B562009F85D1 /* BRAF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DDC0C1F27B562009F85D1 /* BRAF.swift */; };
+		444DDC1B1F27B562009F85D1 /* MET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DDC0D1F27B562009F85D1 /* MET.swift */; };
+		444DDC1C1F27B562009F85D1 /* DDR2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DDC0E1F27B562009F85D1 /* DDR2.swift */; };
+		444DDC1D1F27B562009F85D1 /* ALK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DDC0F1F27B562009F85D1 /* ALK.swift */; };
+		444DDC1E1F27B562009F85D1 /* STK11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DDC101F27B562009F85D1 /* STK11.swift */; };
+		444DDC1F1F27B562009F85D1 /* FGFR1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DDC111F27B562009F85D1 /* FGFR1.swift */; };
+		444DDC201F27B562009F85D1 /* KRAS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444DDC121F27B562009F85D1 /* KRAS.swift */; };
+		44E7C2FE1F210808003E18A1 /* SCLC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7C2FD1F210808003E18A1 /* SCLC.swift */; };
+		44E7C3001F21085B003E18A1 /* NSCLC_Risks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7C2FF1F21085B003E18A1 /* NSCLC_Risks.swift */; };
+		44E7C3021F21087D003E18A1 /* NSCLC_Stages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7C3011F21087D003E18A1 /* NSCLC_Stages.swift */; };
+		44E7C3041F21088E003E18A1 /* NSCLC_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7C3031F21088E003E18A1 /* NSCLC_Tests.swift */; };
+		44E7C30A1F223F5C003E18A1 /* NSCLC_Prognosis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7C3091F223F5C003E18A1 /* NSCLC_Prognosis.swift */; };
+		44E7C30C1F2270CF003E18A1 /* Surgery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7C30B1F2270CF003E18A1 /* Surgery.swift */; };
+		44E7C30E1F2270F6003E18A1 /* RFA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7C30D1F2270F6003E18A1 /* RFA.swift */; };
+		44E7C3101F22712D003E18A1 /* Radiation_Therapy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7C30F1F22712D003E18A1 /* Radiation_Therapy.swift */; };
+		44E7C3131F227175003E18A1 /* Chemotherapy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7C3121F227175003E18A1 /* Chemotherapy.swift */; };
+		44E7C3151F2271A9003E18A1 /* Targeted_Therapies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7C3141F2271A9003E18A1 /* Targeted_Therapies.swift */; };
+		44E7C3171F2271D4003E18A1 /* Immunotherapy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7C3161F2271D4003E18A1 /* Immunotherapy.swift */; };
+		44E7C31B1F228B56003E18A1 /* SCLC_Prognosis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7C3181F228B56003E18A1 /* SCLC_Prognosis.swift */; };
+		44E7C31C1F228B56003E18A1 /* SCLC_Stages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7C3191F228B56003E18A1 /* SCLC_Stages.swift */; };
+		44E7C31D1F228B56003E18A1 /* SCLC_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7C31A1F228B56003E18A1 /* SCLC_Tests.swift */; };
+		44E7C31F1F228BD2003E18A1 /* SCLC_Risks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7C31E1F228BD2003E18A1 /* SCLC_Risks.swift */; };
+		44F020561F292734001FA644 /* Deaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F020551F292734001FA644 /* Deaths.swift */; };
+		44F0205A1F292E86001FA644 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F020591F292E86001FA644 /* Stats.swift */; };
+		44F4A6781F1CF6B8002925C4 /* NSCLC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F4A6771F1CF6B8002925C4 /* NSCLC.swift */; };
+		44F4A67A1F1CFE4C002925C4 /* LungCancer_Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F4A6791F1CFE4C002925C4 /* LungCancer_Info.swift */; };
+		44F4A67C1F1D3E2F002925C4 /* LC_News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F4A67B1F1D3E2F002925C4 /* LC_News.swift */; };
+		44FDDC341F290E310066B08E /* References.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FDDC331F290E310066B08E /* References.swift */; };
+		44FE3CFC1F1FAC1F00F118FB /* Genes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FE3CFB1F1FAC1F00F118FB /* Genes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		444B7B191F1511CD006F0626 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 444B7AFC1F1511CC006F0626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 444B7B031F1511CC006F0626;
+			remoteInfo = Lung_Cancer;
+		};
+		444B7B241F1511CD006F0626 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 444B7AFC1F1511CC006F0626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 444B7B031F1511CC006F0626;
+			remoteInfo = Lung_Cancer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CCDA7AC1FBA710E00078622 /* MyAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccount.swift; sourceTree = "<group>"; };
+		443E5EA71F17AD8E00A0E345 /* NSCLC_Subtypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSCLC_Subtypes.swift; path = ../NSCLC_Subtypes.swift; sourceTree = "<group>"; };
+		444B7B041F1511CC006F0626 /* Lung_Cancer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lung_Cancer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		444B7B071F1511CC006F0626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		444B7B091F1511CC006F0626 /* EGFR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGFR.swift; sourceTree = "<group>"; };
+		444B7B0C1F1511CC006F0626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		444B7B0E1F1511CC006F0626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		444B7B111F1511CC006F0626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		444B7B131F1511CC006F0626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444B7B181F1511CD006F0626 /* Lung_CancerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lung_CancerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		444B7B1C1F1511CD006F0626 /* Lung_CancerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lung_CancerTests.swift; sourceTree = "<group>"; };
+		444B7B1E1F1511CD006F0626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444B7B231F1511CD006F0626 /* Lung_CancerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lung_CancerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		444B7B271F1511CD006F0626 /* Lung_CancerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lung_CancerUITests.swift; sourceTree = "<group>"; };
+		444B7B291F1511CD006F0626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444DDBFA1F278A1D009F85D1 /* SCLC_Surgery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLC_Surgery.swift; sourceTree = "<group>"; };
+		444DDBFB1F278A1D009F85D1 /* SCLC_RadTherapy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLC_RadTherapy.swift; sourceTree = "<group>"; };
+		444DDBFC1F278A1D009F85D1 /* SCLC_Chemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLC_Chemo.swift; sourceTree = "<group>"; };
+		444DDC011F279C91009F85D1 /* Genes_Ui.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genes_Ui.swift; sourceTree = "<group>"; };
+		444DDC051F27B562009F85D1 /* RICTOR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RICTOR.swift; path = ../RICTOR.swift; sourceTree = "<group>"; };
+		444DDC061F27B562009F85D1 /* MAP2K1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MAP2K1.swift; path = ../MAP2K1.swift; sourceTree = "<group>"; };
+		444DDC071F27B562009F85D1 /* RET.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RET.swift; path = ../RET.swift; sourceTree = "<group>"; };
+		444DDC081F27B562009F85D1 /* PTEN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PTEN.swift; path = ../PTEN.swift; sourceTree = "<group>"; };
+		444DDC091F27B562009F85D1 /* ROS1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ROS1.swift; path = ../ROS1.swift; sourceTree = "<group>"; };
+		444DDC0A1F27B562009F85D1 /* AKT1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AKT1.swift; path = ../AKT1.swift; sourceTree = "<group>"; };
+		444DDC0B1F27B562009F85D1 /* PIK3CA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PIK3CA.swift; path = ../PIK3CA.swift; sourceTree = "<group>"; };
+		444DDC0C1F27B562009F85D1 /* BRAF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BRAF.swift; path = ../BRAF.swift; sourceTree = "<group>"; };
+		444DDC0D1F27B562009F85D1 /* MET.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MET.swift; path = ../MET.swift; sourceTree = "<group>"; };
+		444DDC0E1F27B562009F85D1 /* DDR2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DDR2.swift; path = ../DDR2.swift; sourceTree = "<group>"; };
+		444DDC0F1F27B562009F85D1 /* ALK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ALK.swift; path = ../ALK.swift; sourceTree = "<group>"; };
+		444DDC101F27B562009F85D1 /* STK11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = STK11.swift; path = ../STK11.swift; sourceTree = "<group>"; };
+		444DDC111F27B562009F85D1 /* FGFR1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FGFR1.swift; path = ../FGFR1.swift; sourceTree = "<group>"; };
+		444DDC121F27B562009F85D1 /* KRAS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KRAS.swift; path = ../KRAS.swift; sourceTree = "<group>"; };
+		44E7C2FD1F210808003E18A1 /* SCLC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLC.swift; sourceTree = "<group>"; };
+		44E7C2FF1F21085B003E18A1 /* NSCLC_Risks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSCLC_Risks.swift; sourceTree = "<group>"; };
+		44E7C3011F21087D003E18A1 /* NSCLC_Stages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSCLC_Stages.swift; sourceTree = "<group>"; };
+		44E7C3031F21088E003E18A1 /* NSCLC_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSCLC_Tests.swift; sourceTree = "<group>"; };
+		44E7C3091F223F5C003E18A1 /* NSCLC_Prognosis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSCLC_Prognosis.swift; sourceTree = "<group>"; };
+		44E7C30B1F2270CF003E18A1 /* Surgery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Surgery.swift; sourceTree = "<group>"; };
+		44E7C30D1F2270F6003E18A1 /* RFA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFA.swift; sourceTree = "<group>"; };
+		44E7C30F1F22712D003E18A1 /* Radiation_Therapy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Radiation_Therapy.swift; sourceTree = "<group>"; };
+		44E7C3121F227175003E18A1 /* Chemotherapy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chemotherapy.swift; sourceTree = "<group>"; };
+		44E7C3141F2271A9003E18A1 /* Targeted_Therapies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Targeted_Therapies.swift; sourceTree = "<group>"; };
+		44E7C3161F2271D4003E18A1 /* Immunotherapy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Immunotherapy.swift; sourceTree = "<group>"; };
+		44E7C3181F228B56003E18A1 /* SCLC_Prognosis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLC_Prognosis.swift; sourceTree = "<group>"; };
+		44E7C3191F228B56003E18A1 /* SCLC_Stages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLC_Stages.swift; sourceTree = "<group>"; };
+		44E7C31A1F228B56003E18A1 /* SCLC_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLC_Tests.swift; sourceTree = "<group>"; };
+		44E7C31E1F228BD2003E18A1 /* SCLC_Risks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLC_Risks.swift; sourceTree = "<group>"; };
+		44F020551F292734001FA644 /* Deaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deaths.swift; sourceTree = "<group>"; };
+		44F020591F292E86001FA644 /* Stats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		44F4A6771F1CF6B8002925C4 /* NSCLC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSCLC.swift; sourceTree = "<group>"; };
+		44F4A6791F1CFE4C002925C4 /* LungCancer_Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LungCancer_Info.swift; sourceTree = "<group>"; };
+		44F4A67B1F1D3E2F002925C4 /* LC_News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC_News.swift; sourceTree = "<group>"; };
+		44FDDC331F290E310066B08E /* References.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = References.swift; path = ../References.swift; sourceTree = "<group>"; };
+		44FE3CFB1F1FAC1F00F118FB /* Genes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		444B7B011F1511CC006F0626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444B7B151F1511CD006F0626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444B7B201F1511CD006F0626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CCDA7AB1FBA696E00078622 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				44F020591F292E86001FA644 /* Stats.swift */,
+				44F020551F292734001FA644 /* Deaths.swift */,
+			);
+			name = Statistics;
+			sourceTree = "<group>";
+		};
+		444B7AFB1F1511CC006F0626 = {
+			isa = PBXGroup;
+			children = (
+				444B7B061F1511CC006F0626 /* Lung_Cancer */,
+				444B7B1B1F1511CD006F0626 /* Lung_CancerTests */,
+				444B7B261F1511CD006F0626 /* Lung_CancerUITests */,
+				444B7B051F1511CC006F0626 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		444B7B051F1511CC006F0626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				444B7B041F1511CC006F0626 /* Lung_Cancer.app */,
+				444B7B181F1511CD006F0626 /* Lung_CancerTests.xctest */,
+				444B7B231F1511CD006F0626 /* Lung_CancerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		444B7B061F1511CC006F0626 /* Lung_Cancer */ = {
+			isa = PBXGroup;
+			children = (
+				44F4A6791F1CFE4C002925C4 /* LungCancer_Info.swift */,
+				44E7C3051F2108AC003E18A1 /* NSCLC */,
+				44E7C3081F210945003E18A1 /* SCLC */,
+				44E7C3061F2108E9003E18A1 /* Genes Tab */,
+				44E7C3071F21092C003E18A1 /* News */,
+				0CCDA7AB1FBA696E00078622 /* Statistics */,
+				444B7B071F1511CC006F0626 /* AppDelegate.swift */,
+				44FDDC331F290E310066B08E /* References.swift */,
+				444B7B0B1F1511CC006F0626 /* Main.storyboard */,
+				444DDC011F279C91009F85D1 /* Genes_Ui.swift */,
+				0CCDA7AC1FBA710E00078622 /* MyAccount.swift */,
+				444B7B0E1F1511CC006F0626 /* Assets.xcassets */,
+				444B7B101F1511CC006F0626 /* LaunchScreen.storyboard */,
+				444B7B131F1511CC006F0626 /* Info.plist */,
+			);
+			path = Lung_Cancer;
+			sourceTree = "<group>";
+		};
+		444B7B1B1F1511CD006F0626 /* Lung_CancerTests */ = {
+			isa = PBXGroup;
+			children = (
+				444B7B1C1F1511CD006F0626 /* Lung_CancerTests.swift */,
+				444B7B1E1F1511CD006F0626 /* Info.plist */,
+			);
+			path = Lung_CancerTests;
+			sourceTree = "<group>";
+		};
+		444B7B261F1511CD006F0626 /* Lung_CancerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				444B7B271F1511CD006F0626 /* Lung_CancerUITests.swift */,
+				444B7B291F1511CD006F0626 /* Info.plist */,
+			);
+			path = Lung_CancerUITests;
+			sourceTree = "<group>";
+		};
+		444DDC001F278A26009F85D1 /* Prognosis */ = {
+			isa = PBXGroup;
+			children = (
+				444DDBFA1F278A1D009F85D1 /* SCLC_Surgery.swift */,
+				444DDBFB1F278A1D009F85D1 /* SCLC_RadTherapy.swift */,
+				444DDBFC1F278A1D009F85D1 /* SCLC_Chemo.swift */,
+			);
+			name = Prognosis;
+			sourceTree = "<group>";
+		};
+		44E7C3051F2108AC003E18A1 /* NSCLC */ = {
+			isa = PBXGroup;
+			children = (
+				44F4A6771F1CF6B8002925C4 /* NSCLC.swift */,
+				443E5EA71F17AD8E00A0E345 /* NSCLC_Subtypes.swift */,
+				44E7C2FF1F21085B003E18A1 /* NSCLC_Risks.swift */,
+				44E7C3011F21087D003E18A1 /* NSCLC_Stages.swift */,
+				44E7C3031F21088E003E18A1 /* NSCLC_Tests.swift */,
+				44E7C3091F223F5C003E18A1 /* NSCLC_Prognosis.swift */,
+				44E7C3111F227150003E18A1 /* Prognosis */,
+			);
+			name = NSCLC;
+			sourceTree = "<group>";
+		};
+		44E7C3061F2108E9003E18A1 /* Genes Tab */ = {
+			isa = PBXGroup;
+			children = (
+				44FE3CFB1F1FAC1F00F118FB /* Genes.swift */,
+				444B7B091F1511CC006F0626 /* EGFR.swift */,
+				444DDC121F27B562009F85D1 /* KRAS.swift */,
+				444DDC111F27B562009F85D1 /* FGFR1.swift */,
+				444DDC101F27B562009F85D1 /* STK11.swift */,
+				444DDC0F1F27B562009F85D1 /* ALK.swift */,
+				444DDC0E1F27B562009F85D1 /* DDR2.swift */,
+				444DDC0D1F27B562009F85D1 /* MET.swift */,
+				444DDC0C1F27B562009F85D1 /* BRAF.swift */,
+				444DDC0B1F27B562009F85D1 /* PIK3CA.swift */,
+				444DDC0A1F27B562009F85D1 /* AKT1.swift */,
+				444DDC091F27B562009F85D1 /* ROS1.swift */,
+				444DDC081F27B562009F85D1 /* PTEN.swift */,
+				444DDC071F27B562009F85D1 /* RET.swift */,
+				444DDC061F27B562009F85D1 /* MAP2K1.swift */,
+				444DDC051F27B562009F85D1 /* RICTOR.swift */,
+			);
+			name = "Genes Tab";
+			sourceTree = "<group>";
+		};
+		44E7C3071F21092C003E18A1 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				44F4A67B1F1D3E2F002925C4 /* LC_News.swift */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		44E7C3081F210945003E18A1 /* SCLC */ = {
+			isa = PBXGroup;
+			children = (
+				44E7C2FD1F210808003E18A1 /* SCLC.swift */,
+				44E7C31E1F228BD2003E18A1 /* SCLC_Risks.swift */,
+				44E7C3191F228B56003E18A1 /* SCLC_Stages.swift */,
+				44E7C31A1F228B56003E18A1 /* SCLC_Tests.swift */,
+				44E7C3181F228B56003E18A1 /* SCLC_Prognosis.swift */,
+				444DDC001F278A26009F85D1 /* Prognosis */,
+			);
+			name = SCLC;
+			sourceTree = "<group>";
+		};
+		44E7C3111F227150003E18A1 /* Prognosis */ = {
+			isa = PBXGroup;
+			children = (
+				44E7C30B1F2270CF003E18A1 /* Surgery.swift */,
+				44E7C30D1F2270F6003E18A1 /* RFA.swift */,
+				44E7C30F1F22712D003E18A1 /* Radiation_Therapy.swift */,
+				44E7C3121F227175003E18A1 /* Chemotherapy.swift */,
+				44E7C3141F2271A9003E18A1 /* Targeted_Therapies.swift */,
+				44E7C3161F2271D4003E18A1 /* Immunotherapy.swift */,
+			);
+			name = Prognosis;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		444B7B031F1511CC006F0626 /* Lung_Cancer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 444B7B2C1F1511CD006F0626 /* Build configuration list for PBXNativeTarget "Lung_Cancer" */;
+			buildPhases = (
+				444B7B001F1511CC006F0626 /* Sources */,
+				444B7B011F1511CC006F0626 /* Frameworks */,
+				444B7B021F1511CC006F0626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lung_Cancer;
+			productName = Lung_Cancer;
+			productReference = 444B7B041F1511CC006F0626 /* Lung_Cancer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		444B7B171F1511CD006F0626 /* Lung_CancerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 444B7B2F1F1511CD006F0626 /* Build configuration list for PBXNativeTarget "Lung_CancerTests" */;
+			buildPhases = (
+				444B7B141F1511CD006F0626 /* Sources */,
+				444B7B151F1511CD006F0626 /* Frameworks */,
+				444B7B161F1511CD006F0626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				444B7B1A1F1511CD006F0626 /* PBXTargetDependency */,
+			);
+			name = Lung_CancerTests;
+			productName = Lung_CancerTests;
+			productReference = 444B7B181F1511CD006F0626 /* Lung_CancerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		444B7B221F1511CD006F0626 /* Lung_CancerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 444B7B321F1511CD006F0626 /* Build configuration list for PBXNativeTarget "Lung_CancerUITests" */;
+			buildPhases = (
+				444B7B1F1F1511CD006F0626 /* Sources */,
+				444B7B201F1511CD006F0626 /* Frameworks */,
+				444B7B211F1511CD006F0626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				444B7B251F1511CD006F0626 /* PBXTargetDependency */,
+			);
+			name = Lung_CancerUITests;
+			productName = Lung_CancerUITests;
+			productReference = 444B7B231F1511CD006F0626 /* Lung_CancerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		444B7AFC1F1511CC006F0626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Vineet;
+				TargetAttributes = {
+					444B7B031F1511CC006F0626 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6RHLBQXCM3;
+						ProvisioningStyle = Automatic;
+					};
+					444B7B171F1511CD006F0626 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 444B7B031F1511CC006F0626;
+					};
+					444B7B221F1511CD006F0626 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 444B7B031F1511CC006F0626;
+					};
+				};
+			};
+			buildConfigurationList = 444B7AFF1F1511CC006F0626 /* Build configuration list for PBXProject "Lung_Cancer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 444B7AFB1F1511CC006F0626;
+			productRefGroup = 444B7B051F1511CC006F0626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				444B7B031F1511CC006F0626 /* Lung_Cancer */,
+				444B7B171F1511CD006F0626 /* Lung_CancerTests */,
+				444B7B221F1511CD006F0626 /* Lung_CancerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		444B7B021F1511CC006F0626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444B7B121F1511CC006F0626 /* LaunchScreen.storyboard in Resources */,
+				444B7B0F1F1511CC006F0626 /* Assets.xcassets in Resources */,
+				444B7B0D1F1511CC006F0626 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444B7B161F1511CD006F0626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444B7B211F1511CD006F0626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		444B7B001F1511CC006F0626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F0205A1F292E86001FA644 /* Stats.swift in Sources */,
+				0CCDA7AD1FBA710E00078622 /* MyAccount.swift in Sources */,
+				444B7B0A1F1511CC006F0626 /* EGFR.swift in Sources */,
+				444DDC1F1F27B562009F85D1 /* FGFR1.swift in Sources */,
+				44F020561F292734001FA644 /* Deaths.swift in Sources */,
+				44F4A67C1F1D3E2F002925C4 /* LC_News.swift in Sources */,
+				444DDBFF1F278A1D009F85D1 /* SCLC_Chemo.swift in Sources */,
+				44E7C2FE1F210808003E18A1 /* SCLC.swift in Sources */,
+				44FDDC341F290E310066B08E /* References.swift in Sources */,
+				444DDC161F27B562009F85D1 /* PTEN.swift in Sources */,
+				44E7C3041F21088E003E18A1 /* NSCLC_Tests.swift in Sources */,
+				44E7C3001F21085B003E18A1 /* NSCLC_Risks.swift in Sources */,
+				44E7C3101F22712D003E18A1 /* Radiation_Therapy.swift in Sources */,
+				44E7C3131F227175003E18A1 /* Chemotherapy.swift in Sources */,
+				444DDC021F279C91009F85D1 /* Genes_Ui.swift in Sources */,
+				44E7C31F1F228BD2003E18A1 /* SCLC_Risks.swift in Sources */,
+				444DDC171F27B562009F85D1 /* ROS1.swift in Sources */,
+				44E7C31C1F228B56003E18A1 /* SCLC_Stages.swift in Sources */,
+				44E7C31D1F228B56003E18A1 /* SCLC_Tests.swift in Sources */,
+				44E7C30E1F2270F6003E18A1 /* RFA.swift in Sources */,
+				44E7C3151F2271A9003E18A1 /* Targeted_Therapies.swift in Sources */,
+				44F4A6781F1CF6B8002925C4 /* NSCLC.swift in Sources */,
+				444DDC131F27B562009F85D1 /* RICTOR.swift in Sources */,
+				444B7B081F1511CC006F0626 /* AppDelegate.swift in Sources */,
+				44FE3CFC1F1FAC1F00F118FB /* Genes.swift in Sources */,
+				44E7C31B1F228B56003E18A1 /* SCLC_Prognosis.swift in Sources */,
+				444DDC1D1F27B562009F85D1 /* ALK.swift in Sources */,
+				444DDC151F27B562009F85D1 /* RET.swift in Sources */,
+				444DDC181F27B562009F85D1 /* AKT1.swift in Sources */,
+				444DDC141F27B562009F85D1 /* MAP2K1.swift in Sources */,
+				444DDBFE1F278A1D009F85D1 /* SCLC_RadTherapy.swift in Sources */,
+				444DDC1C1F27B562009F85D1 /* DDR2.swift in Sources */,
+				444DDC191F27B562009F85D1 /* PIK3CA.swift in Sources */,
+				444DDC1B1F27B562009F85D1 /* MET.swift in Sources */,
+				444DDC1A1F27B562009F85D1 /* BRAF.swift in Sources */,
+				443E5EA81F17AD8E00A0E345 /* NSCLC_Subtypes.swift in Sources */,
+				44E7C3021F21087D003E18A1 /* NSCLC_Stages.swift in Sources */,
+				444DDC1E1F27B562009F85D1 /* STK11.swift in Sources */,
+				444DDBFD1F278A1D009F85D1 /* SCLC_Surgery.swift in Sources */,
+				44E7C3171F2271D4003E18A1 /* Immunotherapy.swift in Sources */,
+				44E7C30C1F2270CF003E18A1 /* Surgery.swift in Sources */,
+				44E7C30A1F223F5C003E18A1 /* NSCLC_Prognosis.swift in Sources */,
+				444DDC201F27B562009F85D1 /* KRAS.swift in Sources */,
+				44F4A67A1F1CFE4C002925C4 /* LungCancer_Info.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444B7B141F1511CD006F0626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444B7B1D1F1511CD006F0626 /* Lung_CancerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444B7B1F1F1511CD006F0626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444B7B281F1511CD006F0626 /* Lung_CancerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		444B7B1A1F1511CD006F0626 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 444B7B031F1511CC006F0626 /* Lung_Cancer */;
+			targetProxy = 444B7B191F1511CD006F0626 /* PBXContainerItemProxy */;
+		};
+		444B7B251F1511CD006F0626 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 444B7B031F1511CC006F0626 /* Lung_Cancer */;
+			targetProxy = 444B7B241F1511CD006F0626 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		444B7B0B1F1511CC006F0626 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				444B7B0C1F1511CC006F0626 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		444B7B101F1511CC006F0626 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				444B7B111F1511CC006F0626 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		444B7B2A1F1511CD006F0626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		444B7B2B1F1511CD006F0626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		444B7B2D1F1511CD006F0626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6RHLBQXCM3;
+				INFOPLIST_FILE = Lung_Cancer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vineet.csire.Lung-Cancer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		444B7B2E1F1511CD006F0626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6RHLBQXCM3;
+				INFOPLIST_FILE = Lung_Cancer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vineet.csire.Lung-Cancer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		444B7B301F1511CD006F0626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Lung_CancerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vineet.csire.Lung-CancerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lung_Cancer.app/Lung_Cancer";
+			};
+			name = Debug;
+		};
+		444B7B311F1511CD006F0626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Lung_CancerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vineet.csire.Lung-CancerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lung_Cancer.app/Lung_Cancer";
+			};
+			name = Release;
+		};
+		444B7B331F1511CD006F0626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Lung_CancerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vineet.csire.Lung-CancerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lung_Cancer;
+			};
+			name = Debug;
+		};
+		444B7B341F1511CD006F0626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Lung_CancerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vineet.csire.Lung-CancerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lung_Cancer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		444B7AFF1F1511CC006F0626 /* Build configuration list for PBXProject "Lung_Cancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444B7B2A1F1511CD006F0626 /* Debug */,
+				444B7B2B1F1511CD006F0626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		444B7B2C1F1511CD006F0626 /* Build configuration list for PBXNativeTarget "Lung_Cancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444B7B2D1F1511CD006F0626 /* Debug */,
+				444B7B2E1F1511CD006F0626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		444B7B2F1F1511CD006F0626 /* Build configuration list for PBXNativeTarget "Lung_CancerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444B7B301F1511CD006F0626 /* Debug */,
+				444B7B311F1511CD006F0626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		444B7B321F1511CD006F0626 /* Build configuration list for PBXNativeTarget "Lung_CancerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444B7B331F1511CD006F0626 /* Debug */,
+				444B7B341F1511CD006F0626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 444B7AFC1F1511CC006F0626 /* Project object */;
+}
