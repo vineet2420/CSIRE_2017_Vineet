@@ -356,10 +356,10 @@
             </objects>
             <point key="canvasLocation" x="1039" y="328"/>
         </scene>
-        <!--Item-->
+        <!--Meet Up-->
         <scene sceneID="FHy-fl-igF">
             <objects>
-                <viewController id="Asm-LZ-zVW" sceneMemberID="viewController">
+                <viewController id="Asm-LZ-zVW" customClass="Meet" customModule="Lung_Cancer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="B6z-kY-DHT"/>
                         <viewControllerLayoutGuide type="bottom" id="m8n-AF-HMM"/>
@@ -368,12 +368,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kOl-4z-xfc">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <items>
-                                    <navigationItem title="Meet Up" id="hcl-4Z-1SJ"/>
-                                </items>
-                            </navigationBar>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BfE-EH-H8G">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -381,25 +375,27 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="kOl-4z-xfc" firstAttribute="leading" secondItem="BfE-EH-H8G" secondAttribute="leading" id="R6j-IB-ohZ"/>
-                            <constraint firstItem="kOl-4z-xfc" firstAttribute="leading" secondItem="JX3-vX-vcs" secondAttribute="leading" id="Rvp-cJ-mE0"/>
-                            <constraint firstItem="BfE-EH-H8G" firstAttribute="bottom" secondItem="m8n-AF-HMM" secondAttribute="top" id="S64-H4-11Y"/>
-                            <constraint firstItem="BfE-EH-H8G" firstAttribute="top" secondItem="kOl-4z-xfc" secondAttribute="bottom" id="bl9-yL-BYm"/>
-                            <constraint firstItem="kOl-4z-xfc" firstAttribute="trailing" secondItem="BfE-EH-H8G" secondAttribute="trailing" id="m2J-Iz-6j3"/>
-                            <constraint firstAttribute="trailing" secondItem="kOl-4z-xfc" secondAttribute="trailing" id="uqf-TB-Dbz"/>
-                            <constraint firstItem="kOl-4z-xfc" firstAttribute="top" secondItem="B6z-kY-DHT" secondAttribute="bottom" id="x4p-AE-1jN"/>
+                            <constraint firstItem="BfE-EH-H8G" firstAttribute="top" secondItem="B6z-kY-DHT" secondAttribute="bottom" id="Fcc-JG-hlz"/>
+                            <constraint firstItem="BfE-EH-H8G" firstAttribute="leading" secondItem="JX3-vX-vcs" secondAttribute="leading" id="FyU-kQ-ftt"/>
+                            <constraint firstItem="BfE-EH-H8G" firstAttribute="bottom" secondItem="m8n-AF-HMM" secondAttribute="top" id="MgF-g5-D3s"/>
+                            <constraint firstAttribute="trailing" secondItem="BfE-EH-H8G" secondAttribute="trailing" id="cdV-38-Ii7"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="icons8-Account-30" id="8wj-Hd-EGn"/>
+                    <tabBarItem key="tabBarItem" title="Meet Up" image="icons8-Account-30" id="8wj-Hd-EGn"/>
+                    <navigationItem key="navigationItem" title="Meet Up" id="Fge-oG-t5h"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="meet" destination="BfE-EH-H8G" id="fBc-4O-mFQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ouL-ZX-zAY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2696.8000000000002" y="327.88605697151428"/>
         </scene>
-        <!--Item-->
+        <!--Schedule Appointment-->
         <scene sceneID="d6y-qD-9r6">
             <objects>
-                <viewController id="L6W-uo-9de" sceneMemberID="viewController">
+                <viewController id="L6W-uo-9de" customClass="Appt" customModule="Lung_Cancer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CL6-ZR-oX6"/>
                         <viewControllerLayoutGuide type="bottom" id="ffQ-5B-bQH"/>
@@ -408,12 +404,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AKK-iH-MZ6">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <items>
-                                    <navigationItem title="Schedule Appointment" id="bZS-g9-Moi"/>
-                                </items>
-                            </navigationBar>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f4D-FH-pC2">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -421,16 +411,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="AKK-iH-MZ6" firstAttribute="leading" secondItem="f4D-FH-pC2" secondAttribute="leading" id="CTP-y6-eyi"/>
-                            <constraint firstItem="AKK-iH-MZ6" firstAttribute="trailing" secondItem="f4D-FH-pC2" secondAttribute="trailing" id="DbU-i8-fnE"/>
-                            <constraint firstItem="AKK-iH-MZ6" firstAttribute="top" secondItem="CL6-ZR-oX6" secondAttribute="bottom" id="Nl2-PM-gvk"/>
-                            <constraint firstItem="f4D-FH-pC2" firstAttribute="top" secondItem="AKK-iH-MZ6" secondAttribute="bottom" id="Rej-K1-Sib"/>
-                            <constraint firstItem="AKK-iH-MZ6" firstAttribute="leading" secondItem="Xoj-2F-Jan" secondAttribute="leading" id="Tfg-dn-UlL"/>
-                            <constraint firstItem="f4D-FH-pC2" firstAttribute="bottom" secondItem="ffQ-5B-bQH" secondAttribute="top" id="gJd-sa-zSQ"/>
-                            <constraint firstAttribute="trailing" secondItem="AKK-iH-MZ6" secondAttribute="trailing" id="xwW-1R-FJ8"/>
+                            <constraint firstItem="f4D-FH-pC2" firstAttribute="top" secondItem="CL6-ZR-oX6" secondAttribute="bottom" id="Pb0-Qe-Evg"/>
+                            <constraint firstItem="f4D-FH-pC2" firstAttribute="leading" secondItem="Xoj-2F-Jan" secondAttribute="leading" id="S7h-vJ-nsH"/>
+                            <constraint firstAttribute="trailing" secondItem="f4D-FH-pC2" secondAttribute="trailing" id="m6w-zc-5BB"/>
+                            <constraint firstItem="f4D-FH-pC2" firstAttribute="bottom" secondItem="ffQ-5B-bQH" secondAttribute="top" id="w3B-NA-RMc"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="lnk-dR-1fG"/>
+                    <tabBarItem key="tabBarItem" title="Schedule" image="icons8-Account-30" id="lnk-dR-1fG"/>
+                    <navigationItem key="navigationItem" title="Schedule Appointment" id="uOo-Pu-nh1"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="appt" destination="f4D-FH-pC2" id="Bgu-4Z-KOj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Azp-Ad-6Rg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -448,28 +440,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="txq-c3-tmu">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <color key="backgroundColor" red="0.97648680210000005" green="0.9764502048" blue="0.97647500040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <items>
-                                    <navigationItem title="References" id="esd-Mc-2tQ">
-                                        <rightBarButtonItems>
-                                            <barButtonItem image="Info_icon" id="dQE-Gv-LLy">
-                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </barButtonItem>
-                                            <barButtonItem systemItem="action" id="fYa-EH-eAv">
-                                                <color key="tintColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
-                                            </barButtonItem>
-                                        </rightBarButtonItems>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ag0-02-vEj">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
-                                <color key="backgroundColor" red="0.97648680210000005" green="0.9764502048" blue="0.97647500040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bb7-x5-7bR">
-                                <rect key="frame" x="16" y="86" width="343" height="657"/>
+                                <rect key="frame" x="16" y="81" width="343" height="650"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Non-Small Cell Lung Cancer. (n.d.). Retrieved July 06, 2017, from https://www.cancer.org/cancer/non-small-cell-lung-cancer.html
 
@@ -584,20 +556,24 @@ Account - GeneCards Suite. (n.d.). Retrieved July 10, 2017, from http://www.gene
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Bb7-x5-7bR" firstAttribute="leading" secondItem="WGP-z8-yvx" secondAttribute="leadingMargin" id="235-83-MR7"/>
-                            <constraint firstItem="ag0-02-vEj" firstAttribute="leading" secondItem="WGP-z8-yvx" secondAttribute="leading" id="3gN-w9-jAq"/>
-                            <constraint firstItem="txq-c3-tmu" firstAttribute="top" secondItem="cMI-W1-J79" secondAttribute="bottom" id="991-Ee-FvT"/>
-                            <constraint firstItem="Bb7-x5-7bR" firstAttribute="top" secondItem="txq-c3-tmu" secondAttribute="bottom" constant="22" id="CIR-FA-n0y"/>
-                            <constraint firstItem="txq-c3-tmu" firstAttribute="top" secondItem="ag0-02-vEj" secondAttribute="bottom" id="S2n-u6-hyI"/>
-                            <constraint firstItem="ag0-02-vEj" firstAttribute="trailing" secondItem="txq-c3-tmu" secondAttribute="trailing" id="THv-Ap-cgh"/>
-                            <constraint firstItem="txq-c3-tmu" firstAttribute="centerX" secondItem="Bb7-x5-7bR" secondAttribute="centerX" id="X0U-kC-9ov"/>
-                            <constraint firstItem="SKy-jw-she" firstAttribute="top" secondItem="Bb7-x5-7bR" secondAttribute="bottom" constant="8" symbolic="YES" id="bdf-qG-Bso"/>
-                            <constraint firstItem="ag0-02-vEj" firstAttribute="leading" secondItem="txq-c3-tmu" secondAttribute="leading" id="dMh-pO-KUn"/>
-                            <constraint firstAttribute="trailing" secondItem="ag0-02-vEj" secondAttribute="trailing" id="idh-G9-qzJ"/>
-                            <constraint firstItem="ag0-02-vEj" firstAttribute="top" secondItem="WGP-z8-yvx" secondAttribute="top" id="nDo-GQ-ZPf"/>
+                            <constraint firstItem="Bb7-x5-7bR" firstAttribute="top" secondItem="cMI-W1-J79" secondAttribute="bottom" constant="17" id="K2I-A6-FUR"/>
+                            <constraint firstItem="Bb7-x5-7bR" firstAttribute="trailing" secondItem="WGP-z8-yvx" secondAttribute="trailingMargin" id="Y9z-B2-Pui"/>
+                            <constraint firstItem="SKy-jw-she" firstAttribute="top" secondItem="Bb7-x5-7bR" secondAttribute="bottom" constant="20" id="fS8-TV-oZf"/>
+                            <constraint firstItem="Bb7-x5-7bR" firstAttribute="leading" secondItem="WGP-z8-yvx" secondAttribute="leadingMargin" id="wXU-9j-wNK"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="References" image="Settings" selectedImage="Settings" id="2Tv-Gd-eRk"/>
+                    <navigationItem key="navigationItem" title="References" id="vON-aC-eKE">
+                        <rightBarButtonItems>
+                            <barButtonItem image="Info_icon" id="dQE-Gv-LLy">
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </barButtonItem>
+                            <barButtonItem systemItem="action" id="fYa-EH-eAv">
+                                <color key="tintColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="800"/>
                     <connections>
@@ -606,7 +582,7 @@ Account - GeneCards Suite. (n.d.). Retrieved July 10, 2017, from http://www.gene
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hxN-Jc-BmH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4414" y="381"/>
+            <point key="canvasLocation" x="4413.6000000000004" y="380.5097451274363"/>
         </scene>
         <!--Lung Cancer Info-->
         <scene sceneID="QYR-4E-Z7L">
@@ -969,7 +945,7 @@ Account - GeneCards Suite. (n.d.). Retrieved July 10, 2017, from http://www.gene
                                                     <items>
                                                         <navigationItem id="fVI-mj-mnN">
                                                             <nil key="title"/>
-                                                            <button key="titleView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="idb-dl-29T">
+                                                            <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="idb-dl-29T">
                                                                 <rect key="frame" x="175" y="9.5" width="25" height="25"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <state key="normal" image="Home_Tab"/>
@@ -1992,9 +1968,9 @@ Account - GeneCards Suite. (n.d.). Retrieved July 10, 2017, from http://www.gene
                         <segue destination="Z4p-Oz-OuW" kind="relationship" relationship="viewControllers" id="xb8-nz-M7v"/>
                         <segue destination="Lx5-D7-O5W" kind="relationship" relationship="viewControllers" id="1UR-Ph-Qph"/>
                         <segue destination="Asm-LZ-zVW" kind="relationship" relationship="viewControllers" id="KII-TO-rMJ"/>
+                        <segue destination="L6W-uo-9de" kind="relationship" relationship="viewControllers" id="tho-TO-dbz"/>
                         <segue destination="oqR-Kk-QPw" kind="relationship" relationship="viewControllers" id="ig8-u8-joV"/>
                         <segue destination="TLh-P5-Fzf" kind="relationship" relationship="viewControllers" id="mTu-e9-Nob"/>
-                        <segue destination="L6W-uo-9de" kind="relationship" relationship="viewControllers" id="tho-TO-dbz"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SqO-g2-UHM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -11939,16 +11915,17 @@ Mekinist
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Death Rates" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZ1-1B-XT4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Death Rates" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZ1-1B-XT4">
                                 <rect key="frame" x="106" y="90" width="162" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="U3e-He-vf1"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UpJ-yB-WfX">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UpJ-yB-WfX">
                                 <rect key="frame" x="16" y="126" width="343" height="406"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -11973,6 +11950,15 @@ t is similar for blacks (45.7 per 100,000 persons) and whites (45.4 per 100,000 
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.94465845820000005" green="0.96459198000000002" blue="0.98040258879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="UpJ-yB-WfX" firstAttribute="top" secondItem="TZ1-1B-XT4" secondAttribute="bottom" constant="8" symbolic="YES" id="KUf-Xs-aME"/>
+                            <constraint firstItem="TZ1-1B-XT4" firstAttribute="centerX" secondItem="UpJ-yB-WfX" secondAttribute="centerX" id="KmO-JK-FgJ"/>
+                            <constraint firstItem="TZ1-1B-XT4" firstAttribute="top" secondItem="END-jb-Fgh" secondAttribute="bottom" constant="26" id="QKC-zJ-PQT"/>
+                            <constraint firstItem="KdT-X3-3Qf" firstAttribute="top" secondItem="UpJ-yB-WfX" secondAttribute="bottom" constant="86" id="cZk-xv-2fl"/>
+                            <constraint firstItem="UpJ-yB-WfX" firstAttribute="leading" secondItem="9tw-Iw-SA6" secondAttribute="leadingMargin" id="kEQ-tP-w69"/>
+                            <constraint firstItem="UpJ-yB-WfX" firstAttribute="trailing" secondItem="9tw-Iw-SA6" secondAttribute="trailingMargin" id="r3b-Au-BAR"/>
+                            <constraint firstItem="TZ1-1B-XT4" firstAttribute="leading" secondItem="9tw-Iw-SA6" secondAttribute="leadingMargin" constant="90" id="srK-8R-cyf"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="PmK-KM-11L"/>
                     <navigationItem key="navigationItem" title="Statistics" id="TOY-0H-aKr">
@@ -11997,7 +11983,7 @@ t is similar for blacks (45.7 per 100,000 persons) and whites (45.4 per 100,000 
         <!--Statistics-->
         <scene sceneID="fKn-Gl-FtI">
             <objects>
-                <viewController id="ub4-Xk-v9D" customClass="Deaths" customModule="Lung_Cancer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ub4-Xk-v9D" customClass="Diagnosis" customModule="Lung_Cancer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9oP-vx-PJD"/>
                         <viewControllerLayoutGuide type="bottom" id="FyA-oX-e8y"/>
@@ -12006,16 +11992,14 @@ t is similar for blacks (45.7 per 100,000 persons) and whites (45.4 per 100,000 
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Diagnosis" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mZR-nz-xOP">
-                                <rect key="frame" x="0.0" y="128" width="375" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diagnosis" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mZR-nz-xOP">
+                                <rect key="frame" x="0.0" y="86" width="375" height="28"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wc-DY-mJO">
-                                <rect key="frame" x="16" y="172" width="343" height="406"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wc-DY-mJO">
+                                <rect key="frame" x="16" y="130" width="343" height="406"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -12042,6 +12026,16 @@ In 2013, 83% of lung cancer patients were 60 years or older.
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.94465845820000005" green="0.96459198000000002" blue="0.98040258879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="3wc-DY-mJO" firstAttribute="centerY" secondItem="Q3J-Rs-cWf" secondAttribute="centerY" id="4IA-wu-x7r"/>
+                            <constraint firstItem="3wc-DY-mJO" firstAttribute="top" secondItem="mZR-nz-xOP" secondAttribute="bottom" constant="16" id="5QL-Md-OAr"/>
+                            <constraint firstItem="mZR-nz-xOP" firstAttribute="top" secondItem="9oP-vx-PJD" secondAttribute="bottom" constant="22" id="Epf-YD-bl9"/>
+                            <constraint firstItem="mZR-nz-xOP" firstAttribute="leading" secondItem="Q3J-Rs-cWf" secondAttribute="leading" id="FgW-bc-7Em"/>
+                            <constraint firstItem="3wc-DY-mJO" firstAttribute="leading" secondItem="Q3J-Rs-cWf" secondAttribute="leadingMargin" id="IL3-u0-0Lw"/>
+                            <constraint firstItem="mZR-nz-xOP" firstAttribute="centerX" secondItem="3wc-DY-mJO" secondAttribute="centerX" id="MgB-6N-m4P"/>
+                            <constraint firstItem="FyA-oX-e8y" firstAttribute="top" secondItem="3wc-DY-mJO" secondAttribute="bottom" constant="82" id="Uzu-68-ozA"/>
+                            <constraint firstAttribute="trailing" secondItem="mZR-nz-xOP" secondAttribute="trailing" id="axr-vh-OpO"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="LeK-8j-jNa"/>
                     <navigationItem key="navigationItem" title="Statistics" id="yNI-qu-Tht">
@@ -12086,7 +12080,7 @@ In 2013, 83% of lung cancer patients were 60 years or older.
         <!--Statistics-->
         <scene sceneID="FEm-Mr-250">
             <objects>
-                <viewController id="9H3-Fr-Svx" customClass="Deaths" customModule="Lung_Cancer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9H3-Fr-Svx" customClass="Gender" customModule="Lung_Cancer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WRy-cu-LqL"/>
                         <viewControllerLayoutGuide type="bottom" id="3dF-zy-gI2"/>
@@ -12095,16 +12089,17 @@ In 2013, 83% of lung cancer patients were 60 years or older.
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gender Disparity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXP-0G-joP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender Disparity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXP-0G-joP">
                                 <rect key="frame" x="0.0" y="90" width="375" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="ZhF-8A-yFI"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5KQ-ES-iqK">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5KQ-ES-iqK">
                                 <rect key="frame" x="16" y="134" width="343" height="406"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -12127,6 +12122,15 @@ Over the past 39 years, lung cancer cases for men has dropped 32% but risen 94% 
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.94465845820000005" green="0.96459198000000002" blue="0.98040258879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="5KQ-ES-iqK" firstAttribute="leading" secondItem="ynh-zO-CdW" secondAttribute="leadingMargin" id="Dzj-Z8-bdQ"/>
+                            <constraint firstItem="QXP-0G-joP" firstAttribute="leading" secondItem="ynh-zO-CdW" secondAttribute="leading" id="GLa-tK-GEF"/>
+                            <constraint firstItem="QXP-0G-joP" firstAttribute="top" secondItem="WRy-cu-LqL" secondAttribute="bottom" constant="26" id="Ij7-xL-6Bm"/>
+                            <constraint firstAttribute="trailing" secondItem="QXP-0G-joP" secondAttribute="trailing" id="V5p-1r-T5R"/>
+                            <constraint firstItem="5KQ-ES-iqK" firstAttribute="top" secondItem="QXP-0G-joP" secondAttribute="bottom" constant="16" id="hdM-Ul-yTK"/>
+                            <constraint firstItem="QXP-0G-joP" firstAttribute="centerX" secondItem="5KQ-ES-iqK" secondAttribute="centerX" id="lNx-aq-LwD"/>
+                            <constraint firstItem="3dF-zy-gI2" firstAttribute="top" secondItem="5KQ-ES-iqK" secondAttribute="bottom" constant="78" id="szb-jI-BXw"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="KK7-yz-hlo"/>
                     <navigationItem key="navigationItem" title="Statistics" id="xiH-cB-yyd">
@@ -12146,12 +12150,12 @@ Over the past 39 years, lung cancer cases for men has dropped 32% but risen 94% 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y3w-yK-xTt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1860" y="3216"/>
+            <point key="canvasLocation" x="1860" y="3254"/>
         </scene>
-        <!--Item-->
+        <!--Statistics-->
         <scene sceneID="pab-ua-JWw">
             <objects>
-                <viewController id="aPp-o3-5Uc" customClass="Deaths" customModule="Lung_Cancer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="aPp-o3-5Uc" customClass="Race" customModule="Lung_Cancer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aOg-2R-6xI"/>
                         <viewControllerLayoutGuide type="bottom" id="M98-CI-jfm"/>
@@ -12160,40 +12164,17 @@ Over the past 39 years, lung cancer cases for men has dropped 32% but risen 94% 
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5gf-aC-5Ys">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
-                                <color key="backgroundColor" red="0.97648680210000005" green="0.9764502048" blue="0.97647500040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </view>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oUd-Ct-MOa">
-                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
-                                <color key="backgroundColor" red="0.97648680210000005" green="0.9764502048" blue="0.97647500040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <items>
-                                    <navigationItem title="Statistics" id="e7V-Ci-ZeK">
-                                        <barButtonItem key="leftBarButtonItem" title="Go Back" id="tCa-ul-GMb">
-                                            <color key="tintColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
-                                        </barButtonItem>
-                                        <rightBarButtonItems>
-                                            <barButtonItem image="Info_icon" id="E44-Pf-zo2">
-                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </barButtonItem>
-                                            <barButtonItem systemItem="action" id="oJp-Ze-i5G">
-                                                <color key="tintColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
-                                            </barButtonItem>
-                                        </rightBarButtonItems>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Racial/Ethnic Factors" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBd-WN-xdE">
-                                <rect key="frame" x="0.0" y="128" width="375" height="28"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="28"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="NFz-CT-hwl"/>
+                                    <constraint firstAttribute="height" constant="28" id="nbs-gl-LRR"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jsu-pG-kVh">
-                                <rect key="frame" x="16" y="172" width="343" height="406"/>
+                                <rect key="frame" x="16" y="132" width="343" height="362"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -12218,35 +12199,41 @@ Even though black women smoke fewer cigarettes than white women, both genders ha
                         </subviews>
                         <color key="backgroundColor" red="0.94465845820000005" green="0.96459198000000002" blue="0.98040258879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="Jsu-pG-kVh" firstAttribute="top" secondItem="EBd-WN-xdE" secondAttribute="bottom" constant="16" id="4Zx-j6-epE"/>
-                            <constraint firstItem="EBd-WN-xdE" firstAttribute="centerX" secondItem="Jsu-pG-kVh" secondAttribute="centerX" id="4k6-9a-V0D"/>
-                            <constraint firstItem="Jsu-pG-kVh" firstAttribute="leading" secondItem="9jk-hn-Lfj" secondAttribute="leadingMargin" id="4rM-Ef-lQN"/>
-                            <constraint firstItem="oUd-Ct-MOa" firstAttribute="leading" secondItem="EBd-WN-xdE" secondAttribute="leading" id="7gE-Lw-v8k"/>
-                            <constraint firstItem="oUd-Ct-MOa" firstAttribute="top" secondItem="5gf-aC-5Ys" secondAttribute="bottom" id="9KY-1e-4BB"/>
-                            <constraint firstItem="oUd-Ct-MOa" firstAttribute="top" secondItem="aOg-2R-6xI" secondAttribute="bottom" id="BfB-td-ieF"/>
-                            <constraint firstItem="M98-CI-jfm" firstAttribute="top" secondItem="Jsu-pG-kVh" secondAttribute="bottom" constant="40" id="E5J-lX-StR"/>
-                            <constraint firstItem="5gf-aC-5Ys" firstAttribute="top" secondItem="9jk-hn-Lfj" secondAttribute="top" id="FNM-k2-49M"/>
-                            <constraint firstItem="5gf-aC-5Ys" firstAttribute="leading" secondItem="oUd-Ct-MOa" secondAttribute="leading" id="OoO-5V-8Q7"/>
-                            <constraint firstItem="5gf-aC-5Ys" firstAttribute="leading" secondItem="9jk-hn-Lfj" secondAttribute="leading" id="a4h-lm-HIK"/>
-                            <constraint firstItem="5gf-aC-5Ys" firstAttribute="trailing" secondItem="oUd-Ct-MOa" secondAttribute="trailing" id="d59-vg-b4L"/>
-                            <constraint firstItem="EBd-WN-xdE" firstAttribute="top" secondItem="oUd-Ct-MOa" secondAttribute="bottom" constant="20" id="iAM-XJ-agh"/>
-                            <constraint firstItem="oUd-Ct-MOa" firstAttribute="trailing" secondItem="EBd-WN-xdE" secondAttribute="trailing" id="jA6-JR-Oxa"/>
-                            <constraint firstAttribute="trailing" secondItem="5gf-aC-5Ys" secondAttribute="trailing" id="jMr-9x-HjA"/>
+                            <constraint firstItem="Jsu-pG-kVh" firstAttribute="top" secondItem="EBd-WN-xdE" secondAttribute="bottom" constant="16" id="2LD-J3-ugd"/>
+                            <constraint firstItem="EBd-WN-xdE" firstAttribute="top" secondItem="aOg-2R-6xI" secondAttribute="bottom" constant="24" id="6Dm-jc-PnI"/>
+                            <constraint firstAttribute="trailing" secondItem="EBd-WN-xdE" secondAttribute="trailing" id="B92-ET-Fek"/>
+                            <constraint firstItem="Jsu-pG-kVh" firstAttribute="leading" secondItem="9jk-hn-Lfj" secondAttribute="leadingMargin" id="GDS-Ch-6B2"/>
+                            <constraint firstItem="EBd-WN-xdE" firstAttribute="centerX" secondItem="Jsu-pG-kVh" secondAttribute="centerX" id="KeI-kI-zeX"/>
+                            <constraint firstItem="EBd-WN-xdE" firstAttribute="leading" secondItem="9jk-hn-Lfj" secondAttribute="leading" id="dQd-Ge-WZj"/>
+                            <constraint firstItem="M98-CI-jfm" firstAttribute="top" secondItem="Jsu-pG-kVh" secondAttribute="bottom" constant="80" id="xga-dJ-OMI"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="XPH-fZ-O15"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Statistics" id="qZc-pd-bJP">
+                        <rightBarButtonItems>
+                            <barButtonItem image="Info_icon" id="E44-Pf-zo2">
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </barButtonItem>
+                            <barButtonItem systemItem="action" id="oJp-Ze-i5G">
+                                <color key="tintColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="Brief_Text" destination="Jsu-pG-kVh" id="Of9-gg-nyr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xk8-Kd-Xek" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1860" y="3949"/>
+            <point key="canvasLocation" x="1860" y="3953"/>
         </scene>
-        <!--Item-->
+        <!--Statistics-->
         <scene sceneID="TOf-Qv-AFk">
             <objects>
-                <viewController id="ALV-7o-LeN" customClass="Deaths" customModule="Lung_Cancer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ALV-7o-LeN" customClass="Survival" customModule="Lung_Cancer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="px5-3V-xaM"/>
                         <viewControllerLayoutGuide type="bottom" id="myg-iL-Ts0"/>
@@ -12259,36 +12246,17 @@ Even though black women smoke fewer cigarettes than white women, both genders ha
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
                                 <color key="backgroundColor" red="0.97648680210000005" green="0.9764502048" blue="0.97647500040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sBb-ia-nPe">
-                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
-                                <color key="backgroundColor" red="0.97648680210000005" green="0.9764502048" blue="0.97647500040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <items>
-                                    <navigationItem title="Statistics" id="fLU-91-y3r">
-                                        <barButtonItem key="leftBarButtonItem" title="Go Back" id="lzQ-W5-OMw">
-                                            <color key="tintColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
-                                        </barButtonItem>
-                                        <rightBarButtonItems>
-                                            <barButtonItem image="Info_icon" id="qcx-IX-Oq4">
-                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </barButtonItem>
-                                            <barButtonItem systemItem="action" id="5lT-f1-GQw">
-                                                <color key="tintColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
-                                            </barButtonItem>
-                                        </rightBarButtonItems>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Survival" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsR-5y-7J1">
-                                <rect key="frame" x="0.0" y="128" width="375" height="28"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="28"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="9nR-7r-dVN"/>
+                                    <constraint firstAttribute="height" constant="28" id="EFw-Q7-poz"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7S-60-VvQ">
-                                <rect key="frame" x="16" y="172" width="343" height="406"/>
+                                <rect key="frame" x="16" y="132" width="343" height="406"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -12313,23 +12281,31 @@ More than half of the people diagnosed with lung cancer die within one year. Bas
                         </subviews>
                         <color key="backgroundColor" red="0.94465845820000005" green="0.96459198000000002" blue="0.98040258879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="hsR-5y-7J1" firstAttribute="top" secondItem="sBb-ia-nPe" secondAttribute="bottom" constant="20" id="2Oe-cg-C0I"/>
-                            <constraint firstItem="sBb-ia-nPe" firstAttribute="top" secondItem="MVe-Zg-1KE" secondAttribute="bottom" id="3QU-d9-KUb"/>
-                            <constraint firstItem="MVe-Zg-1KE" firstAttribute="top" secondItem="YKX-Lx-Iqn" secondAttribute="top" id="5eD-Bn-ZxT"/>
-                            <constraint firstItem="sBb-ia-nPe" firstAttribute="trailing" secondItem="hsR-5y-7J1" secondAttribute="trailing" id="H8O-UE-yVc"/>
-                            <constraint firstItem="sBb-ia-nPe" firstAttribute="leading" secondItem="hsR-5y-7J1" secondAttribute="leading" id="HHf-Wy-ksq"/>
-                            <constraint firstItem="e7S-60-VvQ" firstAttribute="top" secondItem="hsR-5y-7J1" secondAttribute="bottom" constant="16" id="NtO-y3-D2L"/>
-                            <constraint firstItem="MVe-Zg-1KE" firstAttribute="leading" secondItem="sBb-ia-nPe" secondAttribute="leading" id="TYH-YC-UC9"/>
-                            <constraint firstItem="MVe-Zg-1KE" firstAttribute="leading" secondItem="YKX-Lx-Iqn" secondAttribute="leading" id="TpO-rd-fKv"/>
-                            <constraint firstItem="MVe-Zg-1KE" firstAttribute="trailing" secondItem="sBb-ia-nPe" secondAttribute="trailing" id="hcq-vE-ddQ"/>
-                            <constraint firstItem="myg-iL-Ts0" firstAttribute="top" secondItem="e7S-60-VvQ" secondAttribute="bottom" constant="40" id="iFb-RQ-gNz"/>
-                            <constraint firstItem="sBb-ia-nPe" firstAttribute="top" secondItem="px5-3V-xaM" secondAttribute="bottom" id="lCB-Oo-Bmc"/>
-                            <constraint firstItem="e7S-60-VvQ" firstAttribute="leading" secondItem="YKX-Lx-Iqn" secondAttribute="leadingMargin" id="mR9-NF-q8t"/>
-                            <constraint firstItem="hsR-5y-7J1" firstAttribute="centerX" secondItem="e7S-60-VvQ" secondAttribute="centerX" id="rjN-Bn-DFa"/>
-                            <constraint firstAttribute="trailing" secondItem="MVe-Zg-1KE" secondAttribute="trailing" id="tot-pW-znT"/>
+                            <constraint firstItem="hsR-5y-7J1" firstAttribute="top" secondItem="MVe-Zg-1KE" secondAttribute="bottom" constant="24" id="0yW-Bf-JOL"/>
+                            <constraint firstItem="MVe-Zg-1KE" firstAttribute="top" secondItem="YKX-Lx-Iqn" secondAttribute="top" id="8Fa-i5-fPH"/>
+                            <constraint firstItem="myg-iL-Ts0" firstAttribute="top" secondItem="e7S-60-VvQ" secondAttribute="bottom" constant="80" id="A5S-9y-u2f"/>
+                            <constraint firstItem="MVe-Zg-1KE" firstAttribute="bottom" secondItem="px5-3V-xaM" secondAttribute="bottom" id="Hj2-Ah-vXC"/>
+                            <constraint firstItem="MVe-Zg-1KE" firstAttribute="leading" secondItem="hsR-5y-7J1" secondAttribute="leading" id="Ik6-Y5-uZc"/>
+                            <constraint firstItem="e7S-60-VvQ" firstAttribute="top" secondItem="hsR-5y-7J1" secondAttribute="bottom" constant="16" id="KOz-gl-bLD"/>
+                            <constraint firstItem="hsR-5y-7J1" firstAttribute="centerX" secondItem="e7S-60-VvQ" secondAttribute="centerX" id="V4m-fD-p2Y"/>
+                            <constraint firstAttribute="trailing" secondItem="MVe-Zg-1KE" secondAttribute="trailing" id="ari-cL-szd"/>
+                            <constraint firstItem="e7S-60-VvQ" firstAttribute="leading" secondItem="YKX-Lx-Iqn" secondAttribute="leadingMargin" id="mZz-O7-N4j"/>
+                            <constraint firstItem="MVe-Zg-1KE" firstAttribute="trailing" secondItem="hsR-5y-7J1" secondAttribute="trailing" id="usM-Tk-C5Z"/>
+                            <constraint firstItem="MVe-Zg-1KE" firstAttribute="leading" secondItem="YKX-Lx-Iqn" secondAttribute="leading" id="wLS-aY-2Qt"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="NYA-cN-RXD"/>
+                    <navigationItem key="navigationItem" title="Statistics" id="X19-Fx-pRi">
+                        <rightBarButtonItems>
+                            <barButtonItem image="Info_icon" id="qcx-IX-Oq4">
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </barButtonItem>
+                            <barButtonItem systemItem="action" id="5lT-f1-GQw">
+                                <color key="tintColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="Brief_Text" destination="e7S-60-VvQ" id="JFX-2U-ubK"/>
                     </connections>

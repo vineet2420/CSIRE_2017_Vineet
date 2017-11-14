@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0CCDA7AD1FBA710E00078622 /* MyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCDA7AC1FBA710E00078622 /* MyAccount.swift */; };
+		0CE8F5E41FBA9AA800861B26 /* Diagnosis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8F5E31FBA9AA800861B26 /* Diagnosis.swift */; };
+		0CE8F5E61FBA9CBD00861B26 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8F5E51FBA9CBD00861B26 /* Gender.swift */; };
+		0CF4C1CA1FBAA25E00C30F29 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4C1C91FBAA25E00C30F29 /* Race.swift */; };
+		0CF4C1CC1FBAA2F000C30F29 /* Survival.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4C1CB1FBAA2F000C30F29 /* Survival.swift */; };
+		0CF4C1CF1FBAA40D00C30F29 /* Appt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4C1CE1FBAA40D00C30F29 /* Appt.swift */; };
+		0CF4C1D11FBAA60A00C30F29 /* Meet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4C1D01FBAA60A00C30F29 /* Meet.swift */; };
 		443E5EA81F17AD8E00A0E345 /* NSCLC_Subtypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E5EA71F17AD8E00A0E345 /* NSCLC_Subtypes.swift */; };
 		444B7B081F1511CC006F0626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444B7B071F1511CC006F0626 /* AppDelegate.swift */; };
 		444B7B0A1F1511CC006F0626 /* EGFR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444B7B091F1511CC006F0626 /* EGFR.swift */; };
@@ -77,6 +83,12 @@
 
 /* Begin PBXFileReference section */
 		0CCDA7AC1FBA710E00078622 /* MyAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccount.swift; sourceTree = "<group>"; };
+		0CE8F5E31FBA9AA800861B26 /* Diagnosis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagnosis.swift; sourceTree = "<group>"; };
+		0CE8F5E51FBA9CBD00861B26 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		0CF4C1C91FBAA25E00C30F29 /* Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
+		0CF4C1CB1FBAA2F000C30F29 /* Survival.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survival.swift; sourceTree = "<group>"; };
+		0CF4C1CE1FBAA40D00C30F29 /* Appt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appt.swift; sourceTree = "<group>"; };
+		0CF4C1D01FBAA60A00C30F29 /* Meet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meet.swift; sourceTree = "<group>"; };
 		443E5EA71F17AD8E00A0E345 /* NSCLC_Subtypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSCLC_Subtypes.swift; path = ../NSCLC_Subtypes.swift; sourceTree = "<group>"; };
 		444B7B041F1511CC006F0626 /* Lung_Cancer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lung_Cancer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		444B7B071F1511CC006F0626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,7 +141,7 @@
 		44F4A6771F1CF6B8002925C4 /* NSCLC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSCLC.swift; sourceTree = "<group>"; };
 		44F4A6791F1CFE4C002925C4 /* LungCancer_Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LungCancer_Info.swift; sourceTree = "<group>"; };
 		44F4A67B1F1D3E2F002925C4 /* LC_News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC_News.swift; sourceTree = "<group>"; };
-		44FDDC331F290E310066B08E /* References.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = References.swift; path = ../References.swift; sourceTree = "<group>"; };
+		44FDDC331F290E310066B08E /* References.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = References.swift; sourceTree = "<group>"; };
 		44FE3CFB1F1FAC1F00F118FB /* Genes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,8 +175,23 @@
 			children = (
 				44F020591F292E86001FA644 /* Stats.swift */,
 				44F020551F292734001FA644 /* Deaths.swift */,
+				0CE8F5E31FBA9AA800861B26 /* Diagnosis.swift */,
+				0CE8F5E51FBA9CBD00861B26 /* Gender.swift */,
+				0CF4C1C91FBAA25E00C30F29 /* Race.swift */,
+				0CF4C1CB1FBAA2F000C30F29 /* Survival.swift */,
 			);
 			name = Statistics;
+			sourceTree = "<group>";
+		};
+		0CF4C1CD1FBAA37C00C30F29 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				0CF4C1CE1FBAA40D00C30F29 /* Appt.swift */,
+				0CCDA7AC1FBA710E00078622 /* MyAccount.swift */,
+				44FDDC331F290E310066B08E /* References.swift */,
+				0CF4C1D01FBAA60A00C30F29 /* Meet.swift */,
+			);
+			name = More;
 			sourceTree = "<group>";
 		};
 		444B7AFB1F1511CC006F0626 = {
@@ -196,11 +223,9 @@
 				44E7C3061F2108E9003E18A1 /* Genes Tab */,
 				44E7C3071F21092C003E18A1 /* News */,
 				0CCDA7AB1FBA696E00078622 /* Statistics */,
+				0CF4C1CD1FBAA37C00C30F29 /* More */,
 				444B7B071F1511CC006F0626 /* AppDelegate.swift */,
-				44FDDC331F290E310066B08E /* References.swift */,
 				444B7B0B1F1511CC006F0626 /* Main.storyboard */,
-				444DDC011F279C91009F85D1 /* Genes_Ui.swift */,
-				0CCDA7AC1FBA710E00078622 /* MyAccount.swift */,
 				444B7B0E1F1511CC006F0626 /* Assets.xcassets */,
 				444B7B101F1511CC006F0626 /* LaunchScreen.storyboard */,
 				444B7B131F1511CC006F0626 /* Info.plist */,
@@ -253,6 +278,7 @@
 		44E7C3061F2108E9003E18A1 /* Genes Tab */ = {
 			isa = PBXGroup;
 			children = (
+				444DDC011F279C91009F85D1 /* Genes_Ui.swift */,
 				44FE3CFB1F1FAC1F00F118FB /* Genes.swift */,
 				444B7B091F1511CC006F0626 /* EGFR.swift */,
 				444DDC121F27B562009F85D1 /* KRAS.swift */,
@@ -454,7 +480,10 @@
 				444DDC161F27B562009F85D1 /* PTEN.swift in Sources */,
 				44E7C3041F21088E003E18A1 /* NSCLC_Tests.swift in Sources */,
 				44E7C3001F21085B003E18A1 /* NSCLC_Risks.swift in Sources */,
+				0CE8F5E41FBA9AA800861B26 /* Diagnosis.swift in Sources */,
 				44E7C3101F22712D003E18A1 /* Radiation_Therapy.swift in Sources */,
+				0CF4C1D11FBAA60A00C30F29 /* Meet.swift in Sources */,
+				0CF4C1CF1FBAA40D00C30F29 /* Appt.swift in Sources */,
 				44E7C3131F227175003E18A1 /* Chemotherapy.swift in Sources */,
 				444DDC021F279C91009F85D1 /* Genes_Ui.swift in Sources */,
 				44E7C31F1F228BD2003E18A1 /* SCLC_Risks.swift in Sources */,
@@ -462,11 +491,13 @@
 				44E7C31C1F228B56003E18A1 /* SCLC_Stages.swift in Sources */,
 				44E7C31D1F228B56003E18A1 /* SCLC_Tests.swift in Sources */,
 				44E7C30E1F2270F6003E18A1 /* RFA.swift in Sources */,
+				0CF4C1CC1FBAA2F000C30F29 /* Survival.swift in Sources */,
 				44E7C3151F2271A9003E18A1 /* Targeted_Therapies.swift in Sources */,
 				44F4A6781F1CF6B8002925C4 /* NSCLC.swift in Sources */,
 				444DDC131F27B562009F85D1 /* RICTOR.swift in Sources */,
 				444B7B081F1511CC006F0626 /* AppDelegate.swift in Sources */,
 				44FE3CFC1F1FAC1F00F118FB /* Genes.swift in Sources */,
+				0CE8F5E61FBA9CBD00861B26 /* Gender.swift in Sources */,
 				44E7C31B1F228B56003E18A1 /* SCLC_Prognosis.swift in Sources */,
 				444DDC1D1F27B562009F85D1 /* ALK.swift in Sources */,
 				444DDC151F27B562009F85D1 /* RET.swift in Sources */,
@@ -485,6 +516,7 @@
 				44E7C30C1F2270CF003E18A1 /* Surgery.swift in Sources */,
 				44E7C30A1F223F5C003E18A1 /* NSCLC_Prognosis.swift in Sources */,
 				444DDC201F27B562009F85D1 /* KRAS.swift in Sources */,
+				0CF4C1CA1FBAA25E00C30F29 /* Race.swift in Sources */,
 				44F4A67A1F1CFE4C002925C4 /* LungCancer_Info.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
