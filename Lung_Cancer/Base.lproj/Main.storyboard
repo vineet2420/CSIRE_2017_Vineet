@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YDy-GF-g1h">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YDy-GF-g1h">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -311,7 +311,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ah-Uo-p8U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1568.8" y="1411.8440779610196"/>
+            <point key="canvasLocation" x="3247" y="1149"/>
         </scene>
         <!--My Account-->
         <scene sceneID="42a-wg-9R2">
@@ -624,7 +624,7 @@ Account - GeneCards Suite. (n.d.). Retrieved July 10, 2017, from http://www.gene
                                 </items>
                             </navigationBar>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ISu-Qo-eed">
-                                <rect key="frame" x="0.0" y="327" width="375" height="473"/>
+                                <rect key="frame" x="0.0" y="327" width="375" height="424"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Respiratory system" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="28J-bm-Ihh">
                                         <rect key="frame" x="31" y="44" width="153" height="23"/>
@@ -726,7 +726,7 @@ Account - GeneCards Suite. (n.d.). Retrieved July 10, 2017, from http://www.gene
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e5r-6V-bCP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1463" y="2138"/>
+            <point key="canvasLocation" x="-551" y="2165"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="SGc-5Y-VJ8">
@@ -918,7 +918,7 @@ Account - GeneCards Suite. (n.d.). Retrieved July 10, 2017, from http://www.gene
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="64K-gO-e75" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1463" y="300"/>
+            <point key="canvasLocation" x="-551" y="328"/>
         </scene>
         <!--Genes-->
         <scene sceneID="RSI-Sh-OU1">
@@ -946,7 +946,7 @@ Account - GeneCards Suite. (n.d.). Retrieved July 10, 2017, from http://www.gene
                                                     <items>
                                                         <navigationItem id="fVI-mj-mnN">
                                                             <nil key="title"/>
-                                                            <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="idb-dl-29T">
+                                                            <button key="titleView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="idb-dl-29T">
                                                                 <rect key="frame" x="175" y="9.5" width="25" height="25"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <state key="normal" image="Home_Tab"/>
@@ -1976,7 +1976,7 @@ Account - GeneCards Suite. (n.d.). Retrieved July 10, 2017, from http://www.gene
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SqO-g2-UHM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-231" y="-447"/>
+            <point key="canvasLocation" x="2086" y="-681"/>
         </scene>
         <!--Subtypes-->
         <scene sceneID="78E-su-9VC">
@@ -2110,7 +2110,7 @@ Account - GeneCards Suite. (n.d.). Retrieved July 10, 2017, from http://www.gene
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rqd-CZ-CkL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1463" y="3040"/>
+            <point key="canvasLocation" x="-551" y="3067"/>
         </scene>
         <!--NSCLC-->
         <scene sceneID="RLa-ak-c2u">
@@ -2165,7 +2165,7 @@ Account - GeneCards Suite. (n.d.). Retrieved July 10, 2017, from http://www.gene
                                 </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zj7-9E-7ay">
-                                <rect key="frame" x="0.0" y="345" width="375" height="655"/>
+                                <rect key="frame" x="0.0" y="345" width="375" height="606"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Non-Small Cell Lung Cancer, NSCLC, is the most common type of Lung Cancer." selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpr-kv-6Ao">
                                         <rect key="frame" x="8" y="8" width="359" height="56"/>
@@ -2432,7 +2432,7 @@ Account - GeneCards Suite. (n.d.). Retrieved July 10, 2017, from http://www.gene
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nj4-Az-fAe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1463.2" y="1247.6761619190406"/>
+            <point key="canvasLocation" x="-551" y="1276"/>
         </scene>
         <!--EGFR-->
         <scene sceneID="jVF-dF-RW2">
@@ -2648,7 +2648,7 @@ Gefitinib
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ft6-S4-js0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-165.59999999999999" y="1203.1484257871066"/>
+            <point key="canvasLocation" x="514" y="1240"/>
         </scene>
         <!--Lung Cancer-->
         <scene sceneID="WP0-Ck-opA">
@@ -2774,7 +2774,7 @@ Gefitinib
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JPf-Kf-SWi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2263.1999999999998" y="2156.2218890554723"/>
+            <point key="canvasLocation" x="-1351" y="2184"/>
         </scene>
         <!--Risks-->
         <scene sceneID="y7s-8Q-hIs">
@@ -2824,7 +2824,7 @@ Gefitinib
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rnh-4y-hqb">
-                                <rect key="frame" x="16" y="405" width="343" height="376"/>
+                                <rect key="frame" x="16" y="405" width="343" height="327"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Tobacco ">
@@ -3008,7 +3008,7 @@ Since Lung Cancer is caused by mutated genes, it is likely family members who ha
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J9s-5X-SEi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1463" y="3853"/>
+            <point key="canvasLocation" x="-551" y="3881"/>
         </scene>
         <!--Stages-->
         <scene sceneID="pkx-tL-eMU">
@@ -3266,7 +3266,7 @@ Cg
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mC4-5D-GMS">
-                                <rect key="frame" x="16" y="512" width="343" height="280"/>
+                                <rect key="frame" x="16" y="512" width="343" height="231"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Stage 0:">
@@ -3744,7 +3744,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AQ2-3v-j1e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1463" y="4680"/>
+            <point key="canvasLocation" x="-551" y="4707"/>
         </scene>
         <!--Tests-->
         <scene sceneID="Gug-Bu-sLE">
@@ -3794,7 +3794,7 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Gi-YH-QLO">
-                                <rect key="frame" x="16" y="405" width="343" height="376"/>
+                                <rect key="frame" x="16" y="405" width="343" height="327"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Imaging Tests-">
@@ -4084,7 +4084,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cRn-3A-nuE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1463" y="5502"/>
+            <point key="canvasLocation" x="-551" y="5530"/>
         </scene>
         <!--Prognosis-->
         <scene sceneID="V7i-Xr-vkU">
@@ -4417,7 +4417,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A0C-9G-QPS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1463" y="6445"/>
+            <point key="canvasLocation" x="-551" y="6472"/>
         </scene>
         <!--Surgery-->
         <scene sceneID="VoH-XT-Y3L">
@@ -4691,7 +4691,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="djW-mD-you" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1463" y="7313"/>
+            <point key="canvasLocation" x="-551" y="7341"/>
         </scene>
         <!--RFA-->
         <scene sceneID="13s-04-NAk">
@@ -4822,7 +4822,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9az-X0-hJk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1463" y="7970"/>
+            <point key="canvasLocation" x="-551" y="7997"/>
         </scene>
         <!--Radiation Therapy-->
         <scene sceneID="wFM-pE-lLY">
@@ -5037,7 +5037,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AFx-hl-R3z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1463" y="8643"/>
+            <point key="canvasLocation" x="-551" y="8670"/>
         </scene>
         <!--Chemotherapy-->
         <scene sceneID="96O-XM-1Zq">
@@ -5508,7 +5508,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sJm-7W-q1q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1463" y="9317"/>
+            <point key="canvasLocation" x="-551" y="9344"/>
         </scene>
         <!--Targeted Therapies-->
         <scene sceneID="seO-E3-NuH">
@@ -5677,7 +5677,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zIU-zU-H9o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1463" y="9988"/>
+            <point key="canvasLocation" x="-551" y="10015"/>
         </scene>
         <!--Immunotherapy-->
         <scene sceneID="PEd-7t-vyd">
@@ -5892,7 +5892,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pdl-lj-UxA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1463" y="10667"/>
+            <point key="canvasLocation" x="-551" y="10694"/>
         </scene>
         <!--SCLC-->
         <scene sceneID="Qfj-ho-Rvs">
@@ -6166,7 +6166,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="keR-F9-BEx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2263" y="1203"/>
+            <point key="canvasLocation" x="-1351" y="1231"/>
         </scene>
         <!--SCLC-->
         <scene sceneID="rte-el-X9Z">
@@ -6312,7 +6312,7 @@ Since Lung Cancer is caused by mutated genes, it is likely family members who ha
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qej-ka-uch" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2263" y="3040"/>
+            <point key="canvasLocation" x="-1351" y="3067"/>
         </scene>
         <!--SCLC-->
         <scene sceneID="n7x-qO-Ph5">
@@ -7030,7 +7030,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B0M-OQ-BQ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2263" y="3853"/>
+            <point key="canvasLocation" x="-1351" y="3881"/>
         </scene>
         <!--SCLC-->
         <scene sceneID="Hzh-fg-eEz">
@@ -7302,7 +7302,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UK7-qB-rht" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2263" y="4681"/>
+            <point key="canvasLocation" x="-1351" y="4708"/>
         </scene>
         <!--SCLC-->
         <scene sceneID="eXt-yn-aiy">
@@ -7508,7 +7508,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Roj-0y-6Yo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2263.1999999999998" y="5477.8110944527743"/>
+            <point key="canvasLocation" x="-1351" y="5505"/>
         </scene>
         <!--SCLC-->
         <scene sceneID="Ndz-pP-Laz">
@@ -7889,7 +7889,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XdB-fB-1yj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2263" y="6305"/>
+            <point key="canvasLocation" x="-1351" y="6332"/>
         </scene>
         <!--SCLC-->
         <scene sceneID="ayU-vP-nTc">
@@ -8167,7 +8167,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="awu-W1-xah" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2263" y="7029"/>
+            <point key="canvasLocation" x="-1351" y="7057"/>
         </scene>
         <!--SCLC-->
         <scene sceneID="daQ-h6-e69">
@@ -8495,7 +8495,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BV9-bO-HKt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2263" y="7686"/>
+            <point key="canvasLocation" x="-1351" y="7713"/>
         </scene>
         <!--KRAS-->
         <scene sceneID="Vro-Uf-baT">
@@ -8721,7 +8721,7 @@ Estimated Mutated Expression: 58 ppm
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RNB-EC-FHG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-165.59999999999999" y="1984.4077961019491"/>
+            <point key="canvasLocation" x="514" y="2021"/>
         </scene>
         <!--FGFR1-->
         <scene sceneID="UZ7-vm-V2u">
@@ -8946,7 +8946,7 @@ Regorafenib</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OBN-QV-Y4Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-166" y="2818"/>
+            <point key="canvasLocation" x="513" y="2854"/>
         </scene>
         <!--STK11-->
         <scene sceneID="VWF-44-lya">
@@ -9163,7 +9163,7 @@ Peutz-Jeghers Syndrome Testicular Germ Cell Tumor Pancreatic Cancer Malignant Me
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tjf-mj-h5l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-167" y="3616"/>
+            <point key="canvasLocation" x="513" y="3652"/>
         </scene>
         <!--ALK-->
         <scene sceneID="9Dm-7g-weC">
@@ -9385,7 +9385,7 @@ Brigatinib</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hc3-HS-LNb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-167" y="4408"/>
+            <point key="canvasLocation" x="513" y="4445"/>
         </scene>
         <!--DDR2-->
         <scene sceneID="cKt-1n-Rdk">
@@ -9635,7 +9635,7 @@ Adenosine triphosphate</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ly9-ZG-PIY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-167" y="5205"/>
+            <point key="canvasLocation" x="513" y="5242"/>
         </scene>
         <!--MET-->
         <scene sceneID="R5h-iF-frr">
@@ -9888,7 +9888,7 @@ Cometriq
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l5B-vu-G9g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-167" y="6094"/>
+            <point key="canvasLocation" x="513" y="6130"/>
         </scene>
         <!--BRAF-->
         <scene sceneID="aGE-Uy-gaT">
@@ -10141,7 +10141,7 @@ Trametinib
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X9n-hy-Sz7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-167" y="6891"/>
+            <point key="canvasLocation" x="513" y="6927"/>
         </scene>
         <!--PIK3CA-->
         <scene sceneID="5ZF-fc-fHT">
@@ -10377,7 +10377,7 @@ Paclitaxel
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wgk-pg-pW9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-167" y="8566"/>
+            <point key="canvasLocation" x="513" y="8602"/>
         </scene>
         <!--AKT1-->
         <scene sceneID="aGr-Gs-LAs">
@@ -10613,7 +10613,7 @@ Cisplatin
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k5B-CI-yTV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-167" y="9425"/>
+            <point key="canvasLocation" x="513" y="9461"/>
         </scene>
         <!--ROS1-->
         <scene sceneID="bDQ-6N-9wZ">
@@ -10845,7 +10845,7 @@ Ceritinib
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vRR-A4-uur" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-167" y="10187"/>
+            <point key="canvasLocation" x="513" y="10223"/>
         </scene>
         <!--PTEN-->
         <scene sceneID="ksg-i1-u5S">
@@ -11084,7 +11084,7 @@ Cisplatin
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6hw-Po-UnW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-167" y="7716"/>
+            <point key="canvasLocation" x="513" y="7752"/>
         </scene>
         <!--RET-->
         <scene sceneID="boD-ya-CUi">
@@ -11319,7 +11319,7 @@ Cabozantinib
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d0B-wM-oVS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-167" y="10905"/>
+            <point key="canvasLocation" x="513" y="10942"/>
         </scene>
         <!--MAP2K1-->
         <scene sceneID="Hr6-PI-z6J">
@@ -11559,7 +11559,7 @@ Mekinist
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XJ6-I0-5fX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-167" y="11645"/>
+            <point key="canvasLocation" x="513" y="11682"/>
         </scene>
         <!--RICTOR-->
         <scene sceneID="JvX-mB-mQV">
@@ -11760,7 +11760,7 @@ Mekinist
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Obt-xO-rcq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-167" y="12372"/>
+            <point key="canvasLocation" x="513" y="12408"/>
         </scene>
         <!--Statistics-->
         <scene sceneID="Mub-pl-fCR">
@@ -11837,7 +11837,7 @@ t is similar for blacks (45.7 per 100,000 persons) and whites (45.4 per 100,000 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eDW-1H-7qo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3255.1999999999998" y="1411.8440779610196"/>
+            <point key="canvasLocation" x="3247" y="1880"/>
         </scene>
         <!--Statistics-->
         <scene sceneID="fKn-Gl-FtI">
@@ -11914,7 +11914,7 @@ In 2013, 83% of lung cancer patients were 60 years or older.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1cL-oG-fY8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1860" y="2521"/>
+            <point key="canvasLocation" x="3247" y="2601"/>
         </scene>
         <!--Statistics-->
         <scene sceneID="n8c-pw-XOu">
@@ -12009,7 +12009,7 @@ Over the past 39 years, lung cancer cases for men has dropped 32% but risen 94% 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y3w-yK-xTt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1860" y="3254"/>
+            <point key="canvasLocation" x="3247" y="3333"/>
         </scene>
         <!--Statistics-->
         <scene sceneID="pab-ua-JWw">
@@ -12087,7 +12087,7 @@ Even though black women smoke fewer cigarettes than white women, both genders ha
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xk8-Kd-Xek" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1860" y="3953"/>
+            <point key="canvasLocation" x="3247" y="4032"/>
         </scene>
         <!--Statistics-->
         <scene sceneID="TOf-Qv-AFk">
@@ -12171,7 +12171,7 @@ More than half of the people diagnosed with lung cancer die within one year. Bas
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7au-vl-wS4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1860" y="4660"/>
+            <point key="canvasLocation" x="3247" y="4739"/>
         </scene>
         <!--Home-->
         <scene sceneID="vD9-Nm-6Tn">
@@ -12192,7 +12192,7 @@ More than half of the people diagnosed with lung cancer die within one year. Bas
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lMP-Zr-PaF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2262" y="300"/>
+            <point key="canvasLocation" x="-1351" y="328"/>
         </scene>
     </scenes>
     <resources>
@@ -12218,8 +12218,8 @@ More than half of the people diagnosed with lung cancer die within one year. Bas
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="pwD-8d-tma"/>
-        <segue reference="cxv-BH-hM5"/>
-        <segue reference="6bC-kk-sHi"/>
-        <segue reference="A7t-83-Ukd"/>
+        <segue reference="gc4-Cl-1zi"/>
+        <segue reference="r2a-9B-8oB"/>
+        <segue reference="PMw-i1-XME"/>
     </inferredMetricsTieBreakers>
 </document>
