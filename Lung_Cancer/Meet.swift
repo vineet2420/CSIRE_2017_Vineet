@@ -17,6 +17,7 @@ class Meet: UIViewController, UIWebViewDelegate {
         super.viewDidLoad()
         meet.delegate = self
         if let url = URL(string: "https://lungcancerresearch.hipchat.com/rooms") {
+            UserDefaults.standard.register(defaults: ["UserAgent": "Custom-Agent"])
             let request = URLRequest(url: url)
             meet.loadRequest(request)
         }

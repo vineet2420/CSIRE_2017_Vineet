@@ -325,15 +325,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p46-vb-JNQ">
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p46-vb-JNQ">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <items>
-                                    <navigationItem title="My Account" id="2nP-GE-GDu"/>
+                                    <navigationItem title="My Account" id="2nP-GE-GDu">
+                                        <leftBarButtonItems>
+                                            <barButtonItem title="Item" image="icons8-back-50" id="5cS-ou-E5e">
+                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="Item" image="forward-1" id="bMq-su-1gC">
+                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                            </barButtonItem>
+                                        </leftBarButtonItems>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="wDK-NI-O3C">
+                                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Z1-wa-YtC">
+                            <webView contentMode="scaleAspectFit" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Z1-wa-YtC">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -12176,13 +12189,13 @@ More than half of the people diagnosed with lung cancer die within one year. Bas
         <!--Home-->
         <scene sceneID="vD9-Nm-6Tn">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Bee-Z4-K3F" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Bee-Z4-K3F" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" tag="1" title="Home" image="Home_Tab" selectedImage="Home_Tab" id="BFE-jg-bHF">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mDt-nu-a9L">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -12212,14 +12225,16 @@ More than half of the people diagnosed with lung cancer die within one year. Bas
         <image name="Settings" width="30" height="30"/>
         <image name="Stats" width="30" height="30"/>
         <image name="chestxray" width="170" height="160"/>
+        <image name="forward-1" width="25" height="25"/>
         <image name="genes_arrow" width="17" height="38"/>
         <image name="icons8-Account-30" width="30" height="30"/>
+        <image name="icons8-back-50" width="25" height="25"/>
         <image name="lungcancer" width="600" height="338"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="pwD-8d-tma"/>
         <segue reference="gc4-Cl-1zi"/>
-        <segue reference="r2a-9B-8oB"/>
+        <segue reference="QTJ-ab-kHD"/>
         <segue reference="PMw-i1-XME"/>
     </inferredMetricsTieBreakers>
 </document>
