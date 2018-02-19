@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C545E3F203A971300C9DEDA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C545E3E203A971300C9DEDA /* Home.swift */; };
 		0CCDA7AD1FBA710E00078622 /* MyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCDA7AC1FBA710E00078622 /* MyAccount.swift */; };
 		0CE8F5E41FBA9AA800861B26 /* Diagnosis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8F5E31FBA9AA800861B26 /* Diagnosis.swift */; };
 		0CE8F5E61FBA9CBD00861B26 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8F5E51FBA9CBD00861B26 /* Gender.swift */; };
@@ -82,6 +83,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C545E3E203A971300C9DEDA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		0CCDA7AC1FBA710E00078622 /* MyAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccount.swift; sourceTree = "<group>"; };
 		0CE8F5E31FBA9AA800861B26 /* Diagnosis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagnosis.swift; sourceTree = "<group>"; };
 		0CE8F5E51FBA9CBD00861B26 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
@@ -173,7 +175,6 @@
 		0CCDA7AB1FBA696E00078622 /* Statistics */ = {
 			isa = PBXGroup;
 			children = (
-				44F020591F292E86001FA644 /* Stats.swift */,
 				44F020551F292734001FA644 /* Deaths.swift */,
 				0CE8F5E31FBA9AA800861B26 /* Diagnosis.swift */,
 				0CE8F5E51FBA9CBD00861B26 /* Gender.swift */,
@@ -221,10 +222,10 @@
 				44E7C3051F2108AC003E18A1 /* NSCLC */,
 				44E7C3081F210945003E18A1 /* SCLC */,
 				44E7C3061F2108E9003E18A1 /* Genes Tab */,
-				44E7C3071F21092C003E18A1 /* News */,
 				0CCDA7AB1FBA696E00078622 /* Statistics */,
 				0CF4C1CD1FBAA37C00C30F29 /* More */,
 				444B7B071F1511CC006F0626 /* AppDelegate.swift */,
+				0C545E3E203A971300C9DEDA /* Home.swift */,
 				444B7B0B1F1511CC006F0626 /* Main.storyboard */,
 				444B7B0E1F1511CC006F0626 /* Assets.xcassets */,
 				444B7B101F1511CC006F0626 /* LaunchScreen.storyboard */,
@@ -278,6 +279,8 @@
 		44E7C3061F2108E9003E18A1 /* Genes Tab */ = {
 			isa = PBXGroup;
 			children = (
+				44E7C3071F21092C003E18A1 /* News */,
+				44F020591F292E86001FA644 /* Stats.swift */,
 				444DDC011F279C91009F85D1 /* Genes_Ui.swift */,
 				44FE3CFB1F1FAC1F00F118FB /* Genes.swift */,
 				444B7B091F1511CC006F0626 /* EGFR.swift */,
@@ -508,6 +511,7 @@
 				444DDC191F27B562009F85D1 /* PIK3CA.swift in Sources */,
 				444DDC1B1F27B562009F85D1 /* MET.swift in Sources */,
 				444DDC1A1F27B562009F85D1 /* BRAF.swift in Sources */,
+				0C545E3F203A971300C9DEDA /* Home.swift in Sources */,
 				443E5EA81F17AD8E00A0E345 /* NSCLC_Subtypes.swift in Sources */,
 				44E7C3021F21087D003E18A1 /* NSCLC_Stages.swift in Sources */,
 				444DDC1E1F27B562009F85D1 /* STK11.swift in Sources */,
